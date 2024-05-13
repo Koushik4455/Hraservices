@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HRA Services</title>
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-warning" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow border-top border-5 border-warning sticky-top p-0">
+        <a href="index.html" class="navbar-brand  d-flex align-items-center px-4 px-lg-5">
+            <h2 class="mb-2 "><img src="img/logo1-removebg-preview.png" width="50">HRA Service</h2>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon small_Screen"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link ">Home</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
+                <a href="Realeastate.html" class="nav-item nav-link ">Real estate</a>
+                <a href="CivilServices.html" class="nav-item nav-link active ">Civil engineering services</a>
+                <!-- <div class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Real estate </a>
+                <div class="dropdown-menu fade-up m-0">
+                    <a href="price.html" class="dropdown-item">Open plots</a>
+                    <a href="feature.html" class="dropdown-item">Individual houses </a>
+                    <a href="quote.html" class="dropdown-item">Apartments</a>
+                    <a href="team.html" class="dropdown-item">Commercial buildings</a>
+                    <a href="testimonial.html" class="dropdown-item">Farm lands</a>
+                    <a href="404.html" class="dropdown-item">Villas</a>
+                    <a href="404.html" class="dropdown-item">Agri lands</a>
+                    <a href="404.html" class="dropdown-item">Rental homes </a>
+                </div>
+            </div> -->
+                <!-- <div class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Civil engineering services
+                </a>
+                <div class="dropdown-menu fade-up m-0">
+                    <a href="price.html" class="dropdown-item">Plot measuring </a>
+                    <a href="feature.html" class="dropdown-item">Lay outs plotting</a>
+                    <a href="quote.html" class="dropdown-item">Land survey </a>
+                    <a href="team.html" class="dropdown-item">Registration plans </a>
+                    <a href="testimonial.html" class="dropdown-item">Municipal approvals blue prints</a>
+                    <a href="404.html" class="dropdown-item">Construction super vision</a>
+                    <a href="404.html" class="dropdown-item">Construction plans</a>
+                    <a href="404.html" class="dropdown-item">2D and 3D Designs </a>
+                    <a href="404.html" class="dropdown-item">Building front elevations </a>
+                    <a href="404.html" class="dropdown-item">Complete interior design and execution </a>
+                    <a href="404.html" class="dropdown-item">Columns marking </a>
+                    <a href="404.html" class="dropdown-item">Estimates </a>
+                    <a href="404.html" class="dropdown-item">Building Material contract </a>
+                    <a href="404.html" class="dropdown-item">Borewell points identification </a>
+                </div>
+            </div> -->
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+            <h4 class="m-0 pe-lg-5 d-none d-lg-block"><i class="fa fa-headphones text-warning me-3"></i>9848897974<br><span style="padding-left: 40px;">8341241415</span>
+            </h4>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header_Civil py-5" style="margin-bottom: 6rem;">
+        <div class="container py-5">
+            <h1 class="display-3 text-white  animated slideInDown About_main_text">Civil engineering services </h1>
+        </div>
+    </div>
+    <!-- Page Header End -->
+    <!-- Realeastate Starts -->
+    <div class="container">
+        <div class="container">
+            <ul class="nav nav-tabs text-center " id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link  bg-warning m-2 text-dark " id="home-tab" data-bs-toggle="tab"
+                        data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Plot
+                        measuring </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link bg-warning m-2 text-dark" id="profile-tab" data-bs-toggle="tab"
+                        data-bs-target="#profile" type="button" role="tab" aria-controls="profile"
+                        aria-selected="false">Lay outs plotting</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link bg-warning m-2 text-dark" id="contact-tab" data-bs-toggle="tab"
+                        data-bs-target="#contact" type="button" role="tab" aria-controls="contact"
+                        aria-selected="false"> Land survey</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link bg-warning m-2 text-dark" id="commercialBuildings-tab" data-bs-toggle="tab"
+                        data-bs-target="#commercialBuildings" type="button" role="tab" aria-controls="contact"
+                        aria-selected="false">Registration plans</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link bg-warning m-2 text-dark" id="farmLands-tab" data-bs-toggle="tab"
+                        data-bs-target="#farmLands" type="button" role="tab" aria-controls="farmLands"
+                        aria-selected="false">Municipal approvals blue prints</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link bg-warning m-2 text-dark" id="villas-tab" data-bs-toggle="tab"
+                        data-bs-target="#villas" type="button" role="tab" aria-controls="contact"
+                        aria-selected="false">Construction super vision</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link bg-warning m-2 text-dark" id="contact-tab" data-bs-toggle="tab"
+                        data-bs-target="#agriLands" type="button" role="tab" aria-controls="agriLands"
+                        aria-selected="false">Construction plans</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link bg-warning m-2 text-dark" id="rentalHomes-tab" data-bs-toggle="tab"
+                        data-bs-target="#rentalHomes" type="button" role="tab" aria-controls="contact"
+                        aria-selected="false">2D and 3D Designs </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link bg-warning m-2 text-dark" id="Building-tab" data-bs-toggle="tab"
+                        data-bs-target="#Building" type="button" role="tab" aria-controls="contact"
+                        aria-selected="false">Building front elevations </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link bg-warning m-2 text-dark" id="interior-tab" data-bs-toggle="tab"
+                        data-bs-target="#interior" type="button" role="tab" aria-controls="contact"
+                        aria-selected="false">Complete interior design and execution </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link bg-warning m-2 text-dark" id="Columns-tab" data-bs-toggle="tab"
+                        data-bs-target="#Columns" type="button" role="tab" aria-controls="contact"
+                        aria-selected="false">Columns marking </button>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link bg-warning m-2 text-dark" id="Estimates-tab" data-bs-toggle="tab"
+                        data-bs-target="#Estimates" type="button" role="tab" aria-controls="contact"
+                        aria-selected="false">Estimates </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link bg-warning m-2 text-dark" id="Material-tab" data-bs-toggle="tab"
+                        data-bs-target="#Material" type="button" role="tab" aria-controls="contact"
+                        aria-selected="false">Building Material contract </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link bg-warning m-2 text-dark" id="Borewell-tab" data-bs-toggle="tab"
+                        data-bs-target="#Borewell" type="button" role="tab" aria-controls="contact"
+                        aria-selected="false">Borewell points identification</button>
+                </li>
+            </ul>
+        </div>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <div id="" class="row mt-5">
+                    <div class="col-md-6">
+                        <div class="img-container">
+                            <img src="img/Civil_plotmeasreing.avif" alt="Open Plots">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card p-3">
+                            <h1 class="text-center text-warning">Plot measuring </h1>
+                            <p class="mt-3 p-2">When it comes to purchasing land for your dream home or investment,
+                                understanding plot measurement is crucial. Knowing the dimensions and size of a plot
+                                ensures you can make informed decisions about its suitability for your needs. Here's a
+                                guide to help you navigate plot measurement and find the perfect size for your project:
+                            </p>
+                            <br><span><a href="contact.html">To Know More Details Get in touch Or Contact
+                                    us-9848897974</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+
+                <div id="apartments" class="row mt-5">
+                    <div class="col-md-6">
+                        <div class="img-container">
+                            <img src="img/Civil.layoutplaing.avif" alt="Layout">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card p-3">
+                            <h1 class="text-center text-warning">Lay outs plotting</h1>
+                            <p class="mt-3 p-3">Plotting layouts play a crucial role in shaping the functionality and
+                                aesthetics of a property. Whether you're planning to build your dream home, develop a
+                                commercial space, or invest in real estate, understanding plotting layouts is essential
+                                for maximizing the potential of your land. Here's a comprehensive guide to help you
+                                navigate plotting layouts and design your ideal space:</p>
+                            <br><span class="pb-3"><a href="contact.html">To Know More Details Get in touch Or Contact
+                                    us-9848897974</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+
+                <div id="individualHouses" class="row mt-5">
+                    <div class="col-md-6">
+                        <div class="img-container">
+                            <img src="img/Civil_landservay.jpg" alt="Apartments">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card p-3">
+                            <h1 class="text-center text-warning">Land survey </h1>
+                            <p class="mt-3 p-2">Land surveys are an essential tool for property owners, buyers, and
+                                developers to understand the boundaries, features, and characteristics of a piece of
+                                land. Whether you're planning to build, buy, or sell property, a land survey provides
+                                valuable information that can help ensure legal compliance, prevent disputes, and inform
+                                decision-making. Here's everything you need to know about land surveys:</p>
+                            <br><span><a href="contact.html">To Know More Details Get in touch Or Contact
+                                    us-9848897974</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="commercialBuildings" role="tabpanel"
+                aria-labelledby="commercialBuildings-tab">
+                <div class="row mt-5">
+                    <div class="col-md-6">
+                        <div class="img-container">
+                            <img src="img/Civil.Registration.avif" alt="Apartments">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card p-3">
+                            <h1 class="text-center text-warning">Registration plans</h1>
+                            <p class="mt-3 p-2">Registration plans are essential documents that provide a detailed
+                                blueprint of property ownership, boundaries, and legal rights. Whether you're buying,
+                                selling, or developing real estate, understanding registration plans is crucial for
+                                ensuring legal compliance, protecting your interests, and facilitating property
+                                transactions. Here's everything you need to know about registration plans:</p>
+                            <br><span><a href="contact.html">To Know More Details Get in touch Or Contact
+                                    us-9848897974</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="farmLands" role="tabpanel" aria-labelledby="farmLands-tab">
+                <div class="row mt-5">
+                    <div class="col-md-6">
+                        <div class="img-container">
+                            <img src="img/Civil_Municipal blueprints.jpg" alt="Apartments">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card p-3">
+                            <h1 class="text-center text-warning">Municipal approvals blue prints</h1>
+                            <p class="mt-3 p-2">Municipal approvals blueprints are essential documents in the property
+                                development process, outlining the approved plans and specifications for construction
+                                projects. Whether you're building a new home, commercial property, or infrastructure
+                                project, understanding municipal approvals blueprints is crucial for ensuring compliance
+                                with local regulations, securing permits, and achieving project success. Here's
+                                everything you need to know about municipal approvals blueprints:</p>
+                            <br><span><a href="contact.html">To Know More Details Get in touch Or Contact
+                                    us-9848897974</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="villas" role="tabpanel" aria-labelledby="villas-tab">
+                <div class="row mt-5">
+                    <div class="col-md-6">
+                        <div class="img-container">
+                            <img src="img/civil_Construction super vision.jpg" alt="Apartments">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card p-3">
+                            <h1 class="text-center text-warning">Construction super vision</h1>
+                            <p class="mt-3 p-2">Construction supervision is a critical aspect of ensuring that
+                                construction projects are completed safely, efficiently, and to the highest quality
+                                standards. From overseeing the work of contractors and subcontractors to coordinating
+                                project activities and ensuring compliance with regulations, construction supervisors
+                                play a vital role in every stage of the construction process. Here's everything you need
+                                to know about construction supervision:</p>
+                            <br><span><a href="contact.html">To Know More Details Get in touch Or Contact
+                                    us-9848897974</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="agriLands" role="tabpanel" aria-labelledby="agriLands-tab">
+                <div class="row mt-5">
+                    <div class="col-md-6">
+                        <div class="img-container">
+                            <img src="img/Civil_Construtionplans.jpg" alt="Apartments">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card p-3">
+                            <h1 class="text-center text-warning">Construction plans</h1>
+                            <p class="mt-3 p-2">Construction plans are the essential blueprints that guide the building
+                                process from conception to completion. These detailed documents outline the design,
+                                layout, specifications, and materials for construction projects, providing a roadmap for
+                                builders, contractors, and other stakeholders to follow. Whether you're planning a
+                                residential home, commercial building, or infrastructure project, understanding
+                                construction plans is crucial for ensuring that your vision becomes a reality. Here's
+                                everything you need to know about construction plans:</p>
+                            <br><span><a href="contact.html">To Know More Details Get in touch Or Contact
+                                    us-9848897974</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="rentalHomes" role="tabpanel" aria-labelledby="rentalHomes-tab">
+                <div class="row mt-5">
+                    <div class="col-md-6">
+                        <div class="img-container">
+                            <img src="img/Civil_2d.avif" alt="Apartments">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card p-3">
+                            <h1 class="text-center text-warning">2D and 3D Designs </h1>
+                            <p class="mt-3 p-2">In the world of design and visualization, 2D and 3D designs represent
+                                two distinct dimensions of creativity and innovation. Whether you're designing
+                                buildings, products, graphics, or animations, understanding the differences between
+                                these two design approaches is essential for bringing your ideas to life. Let's delve
+                                into the world of 2D and 3D designs:</p>
+                            <br><span><a href="contact.html">To Know More Details Get in touch Or Contact
+                                    us-9848897974</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="Building" role="tabpanel" aria-labelledby="Building-tab">
+                <div class="row mt-5">
+                    <div class="col-md-6">
+                        <div class="img-container">
+                            <img src="img/Civil_2d.avif" alt="Apartments">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card p-3">
+                            <h1 class="text-center text-warning">Building front elevations </h1>
+                            <p class="mt-3 p-2">Front elevations, also known as facade or frontage elevations, are
+                                crucial components of architectural design that showcase the exterior appearance of
+                                buildings. As the face of a structure, front elevations play a significant role in
+                                defining its character, style, and visual impact. From residential homes to commercial
+                                complexes, front elevations serve as a first impression and contribute to the overall
+                                aesthetic appeal and functionality of a building. Let's explore the importance and
+                                elements of front elevations:</p>
+                            <br><span><a href="contact.html">To Know More Details Get in touch Or Contact
+                                    us-9848897974</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="interior" role="tabpanel" aria-labelledby="interior-tab">
+                <div class="row mt-5">
+                    <div class="col-md-6">
+                        <div class="img-container">
+                            <img src="img/Civl.interior.jpg" alt="Apartments">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card p-3">
+                            <h1 class="text-center text-warning">Complete interior design and execution </h1>
+                            <p class="mt-3 p-2">In the world of design and visualization, 2D and 3D designs represent
+                                two distinct dimensions of creativity and innovation. Whether you're designing
+                                buildings, products, graphics, or animations, understanding the differences between
+                                these two design approaches is essential for bringing your ideas to life. Let's delve
+                                into the world of 2D and 3D designs:</p>
+                            <br><span><a href="contact.html">To Know More Details Get in touch Or Contact
+                                    us-9848897974</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="Columns" role="tabpanel" aria-labelledby="Columns-tab">
+                <div class="row mt-5">
+                    <div class="col-md-6">
+                        <div class="img-container">
+                            <img src="img/Civil_2d.avif" alt="Apartments">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card p-3">
+                            <h1 class="text-center text-warning">Columns marking </h1>
+                            <p class="mt-3 p-2">Column marking is a crucial step in construction that involves
+                                accurately indicating the positions where structural columns will be installed within a
+                                building's framework. This process ensures precise alignment and placement of columns
+                                according to architectural plans and engineering specifications. Here's a brief overview
+                                of column marking in construction:</p>
+                            <br><span><a href="contact.html">To Know More Details Get in touch Or Contact
+                                    us-9848897974</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="Estimates" role="tabpanel" aria-labelledby="Estimates-tab">
+                <div class="row mt-5">
+                    <div class="col-md-6">
+                        <div class="img-container">
+                            <img src="img/Civil.Eatimate.jpg" alt="Apartments">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card p-3">
+                            <h1 class="text-center text-warning">Estimates </h1>
+                            <p class="mt-3 p-2">Construction estimates are essential tools used to forecast the costs
+                                associated with building projects. These estimates provide valuable insights into the
+                                anticipated expenses, allowing stakeholders to budget effectively, plan resources, and
+                                make informed decisions throughout the construction process. Let's delve into the world
+                                of construction estimates:</p>
+                            <br><span><a href="contact.html">To Know More Details Get in touch Or Contact
+                                    us-9848897974</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="Material" role="tabpanel" aria-labelledby="Material">
+                <div class="row mt-5">
+                    <div class="col-md-6">
+                        <div class="img-container">
+                            <img src="img/civil_contract.avif" alt="Apartments">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card p-3">
+                            <h1 class="text-center text-warning">Building Material contract </h1>
+                            <p class="mt-3 p-2">A building material contract is a legally binding agreement between a
+                                supplier of construction materials and a purchaser, typically a contractor, developer,
+                                or property owner. This contract outlines the terms and conditions of the sale and
+                                purchase of building materials, including specifications, pricing, delivery terms,
+                                payment terms, warranties, and other relevant provisions. Here's an overview of what a
+                                building material contract typically includes:</p>
+                            <br><span><a href="contact.html">To Know More Details Get in touch Or Contact
+                                    us-9848897974</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="Borewell" role="tabpanel" aria-labelledby="Borewell-tab">
+                <div class="row mt-5">
+                    <div class="col-md-6">
+                        <div class="img-container">
+                            <img src="img/Civil_Borewellpointsidentification.avif" alt="Apartments">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card p-3">
+                            <h1 class="text-center text-warning">Borewell points identification </h1>
+                            <p class="mt-3 p-2">Identifying borewell points is a crucial step in the process of drilling
+                                borewells for water extraction. Here's an overview of the steps involved in borewell
+                                points identification:</p>
+                            <p class="mt-3 p-2">Before identifying borewell points, it's essential to conduct a
+                                hydrogeological survey of
+                                the area. This survey involves studying the geological formations, groundwater levels,
+                                soil types, and hydrological conditions to identify potential sources of groundwater.
+                            </p>
+                            <br><span><a href="contact.html">To Know More Details Get in touch Or Contact
+                                    us-9848897974</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Realeastate Ends -->
+
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 wow fadeIn" data-wow-delay="0.1s"
+        style="margin-top: 6rem;">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6 m-auto">
+                    <img src="img/Logo.jpeg" width="80%" class="mr-3 mt-2">
+
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Services</h4>
+                    <a class="btn btn-link" href="Realeastate.html">Realestate</a>
+                    <a class="btn btn-link" href="CivilServices.html">Civil engineering services</a>
+
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Quick Links</h4>
+                    <a class="btn btn-link" href="about.html">About Us</a>
+                    <a class="btn btn-link" href="contact.html">Contact Us</a>
+                    <a class="btn btn-link" href="Realeastate.html">Realestate</a>
+                    <a class="btn btn-link" href="CivilServices.html">Civil engineering services</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Address</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>2-1-47/4/4/j/f, hastinapur colony,
+                        mahabubabad</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i> 9848897974</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>highriseasset@gmail.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 col-lg-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">Hraservice.in</a>, All Right Reserved.
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-6 text-center text-md-start mb-3 mb-md-0 d-flex justify-content-md-start">
+                        <p class="ftr me-3">Register No: 8341241415</p>
+                        <a class="ftr me-3" href="Terms.html">Terms & Conditions</a>
+                        <a class="ftr" href="Privacy.html">Privacy Policy</a>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-warning btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

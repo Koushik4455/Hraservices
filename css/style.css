@@ -1,9 +1,18 @@
 /********** Template CSS **********/
+.btn-warning{
+   background-color:   #F38A1D !important;
+
+}
 :root {
-    --primary: #FF3E41;
+    --primary: #FBAA1D;
     --secondary: #51CFED;
     --light: #F8F2F0;
     --dark: #060315;
+}
+.owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+    height: 90vh;
 }
 
 .fw-medium {
@@ -16,6 +25,9 @@
     right: 45px;
     bottom: 45px;
     z-index: 99;
+}
+body{
+    font-family: sans-serif;
 }
 
 
@@ -84,7 +96,7 @@
     position: relative;
     margin-right: 30px;
     padding: 25px 0;
-    color: #FFFFFF;
+    color: #FBAA1D;
     font-size: 15px;
     text-transform: uppercase;
     outline: none;
@@ -205,9 +217,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #FFFFFF;
+    color:white;
     background: transparent;
-    border: 1px solid #FFFFFF;
+    border: 1px solid #FBAA1D;
     border-radius: 45px;
     font-size: 22px;
     transition: .5s;
@@ -218,9 +230,24 @@
     background: var(--primary);
     border-color: var(--primary);
 }
+/* https://img.freepik.com/premium-photo/male-hand-holding-smart-mobile-phone-with-phone-icon-call-now-business-communication-support-center-customer-service-technology-concept-neon-red-blue-light-background_150455-14721.jpg?w=826
+https://img.freepik.com/premium-photo/architecture-safety-building-technology-silhouette-engineering-worker-with-helmet-generative-ai_116317-27128.jpg?w=996 */
 
 .page-header {
-    background: linear-gradient(rgba(6, 3, 21, .5), rgba(6, 3, 21, .5)), url(../img/carousel-1.jpg) center center no-repeat;
+    background: linear-gradient(rgba(6, 3, 21, .5), rgba(6, 3, 21, .5)), url('https://img.freepik.com/premium-photo/real-estate-agent-using-pen-pointing-house-model_220873-23596.jpg') center center no-repeat;
+    background-size: cover;
+}
+.page-header_Realeaste {
+    background: linear-gradient(rgba(6, 3, 21, .5), rgba(6, 3, 21, .5)), url('https://img.freepik.com/premium-photo/businessman-hold-house-icon-smart-home-controlled-intelligent-house-home-automation-app-concept-pcb-design-person-with-smart-phone-innovation-technology-internet-network-concept_150455-14191.jpg?w=826') center center no-repeat;
+    background-size: cover;
+}
+.page-header_Contact {
+    background: linear-gradient(rgba(6, 3, 21, .5), rgba(6, 3, 21, .5)), url('https://img.freepik.com/premium-photo/male-hand-holding-smart-mobile-phone-with-phone-icon-call-now-business-communication-support-center-customer-service-technology-concept-neon-red-blue-light-background_150455-14721.jpg?w=826') center center no-repeat;
+    background-size: cover;
+   
+}
+.page-header_Civil {
+    background: linear-gradient(rgba(6, 3, 21, .5), rgba(6, 3, 21, .5)), url('https://img.freepik.com/premium-photo/architecture-safety-building-technology-silhouette-engineering-worker-with-helmet-generative-ai_116317-27128.jpg?w=996') center center no-repeat;
     background-size: cover;
 }
 
@@ -245,12 +272,24 @@
         padding-right: calc(((100% - 1140px) / 2) + .75rem);
     }
 }
+@media (max-width: 331px) {
+    .small_Screen{
+        margin-left: -10px !important;
+    }
+}
 
 @media (min-width: 1400px) {
     .about-text  {
         padding-right: calc(((100% - 1320px) / 2) + .75rem);
     }
 }
+.About_main_text{
+    margin: 5rem;
+}
+.About_head_color{
+    color: #F38A1D;
+}
+
 
 
 /*** Feature ***/
@@ -473,4 +512,53 @@
 
 .footer .copyright a {
     color: var(--light);
+}
+
+/* Head carousel */
+.home_button{
+    background-color: #F38A1D;
+    color: white;
+
+}
+.home_button:hover{
+    background-color: #f1b574;
+    color: black;
+}
+/* Realeastate css */
+.Srs-btn{
+    background-color: #F38A1D;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    margin: 5px;
+    border-radius: 8px;
+   
+}
+.hidden {
+    display: none;
+}
+.img-container {
+    max-height: 100%px;
+    overflow: hidden;
+}
+.img-container img {
+    width: 100%;
+    height: auto;
+}
+.Srs-btn {
+    cursor: pointer;
+}
+.Srs-btn:target {
+    display: none;
+}
+.content {
+    display: none;
+}
+.content:target {
+    display: flex;
+}
+/* Footer terms */
+.ftr{
+    padding: 10px;
 }
